@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+  }
+  
+  #nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+  }
+  
+  #nav a {
+    margin-right: 20px;
+  }
+  
+  #nav a.menuIMG {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(21, 68, 208);
+    border-radius: 50%;
+  }
+  
+  #middle {
+    margin-top: 200px;
+  }
+  
+  #logo {
+    text-align: center;
+  }
+  
+  #searchcontainer {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  #searchbar {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    outline: 0;
+    width: 600px;
+    border-radius: 20px;
+    border: 1px solid #dfe1e5;
+  }
+  
+  #searchbar:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  }
+  
+  #buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #e7ebeb;
+    border-radius: 3px;
+  }
+  
+  .button:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  }
+  
+  #links {
+    text-align: center;
+    margin-top: 30px;
+  }
